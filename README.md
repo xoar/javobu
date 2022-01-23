@@ -30,8 +30,8 @@ python -m unidic download
 
 pip install cutlet
 
-pip install jamdict jamdict-data
 pip install wheel
+pip install jamdict jamdict-data
 ```
 
 Notice: we install the mecab bindings to use the shipped mecab binary of this lib.

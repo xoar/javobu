@@ -32,10 +32,13 @@ pip install cutlet
 
 pip install wheel
 pip install jamdict jamdict-data
+
+pip install click
 ```
 
 Notice: we install the mecab bindings to use the shipped mecab binary of this lib.
-Of corse you could use another dictionary with fugashi.
+
+Of course you could use another dictionary with fugashi.
 Please check the fugashi site for this: https://github.com/polm/fugashi
 
 

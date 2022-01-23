@@ -7,7 +7,8 @@ Reads from stdin and prints out a vocabulary list.
 
 just feed in text from stdin e.g.
 
-```python javobu.py < someTextFile.txt 
+```
+python javobu.py < someTextFile.txt
 ```
 
 Of course you can use curl or other tools to pipe in your online novel or things like that.
@@ -19,10 +20,11 @@ Still have to test 3.10.
 
 Suggestion: it could be helpful to install the following dependencies in a virtual enviroment.
 
-Javobu heavily relies on the great tools of Paul McCann the Jamdict, Unidic and Mecab Project and we have to install these dependencies by:
+Javobu heavily relies on the great tools of Paul McCann(fugashi, cutlet), the Jamdict, UniCic and MeCab project and we have to install these dependencies by:
 
 
-```pip install mecab-python3==1.0.4
+```
+pip install mecab-python3==1.0.4
 pip install fugashi[unidic]
 python -m unidic download
 

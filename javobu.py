@@ -54,7 +54,7 @@ for oldLemma,oldWordType,count in reversed(sortedDict):
     #get the hiragana and romaji
     #get the word kana feature(katakana) and translate to hiragana and then convert to romaji
     
-    #first query the word again. with this we get a katakan version of the infelcted word.
+    #first query the word again. with this we get a katakan version of the inflected word.
     #if we would have saved the kana version before, this would be the katakana version of the flected word(in past tense etc.)
     #we hopefully have only one entry in the query list
     #TODO: check if this happens sometimes
@@ -72,7 +72,7 @@ for oldLemma,oldWordType,count in reversed(sortedDict):
         romaji = katsu.map_kana(hiragana)
         wordType = lemmaWord.feature.type
 
-        #somtime prefix still landing here trough a changed in the lemma form.
+        #somtimes suffixes still landing here trough a changed in the lemma form.
         #can track the changes through the old and the new type:
         #oldwordType vs wordType and lemma vs oldLemma.
         #e.g. tan and ta

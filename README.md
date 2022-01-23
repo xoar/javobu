@@ -20,7 +20,7 @@ Still have to test 3.10.
 
 Suggestion: it could be helpful to install the following dependencies in a virtual enviroment.
 
-Javobu heavily relies on the great tools of Paul McCann(fugashi, cutlet), the Jamdict, UniCic and MeCab project and we have to install these dependencies by:
+Javobu heavily relies on the great tools of Paul McCann (fugashi, cutlet), the Jamdict, UniDic and MeCab project and we have to install these dependencies by:
 
 
 ```
@@ -39,6 +39,6 @@ Of corse you could use another dictionary with fugashi.
 Please check the fugashi site for this: https://github.com/polm/fugashi
 
 
-##License:
+## License:
 
-My code BSD-3 but be aware of the licence of the used projects.
+My code BSD-3 but be aware of the license of the used projects.

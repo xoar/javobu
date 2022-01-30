@@ -9,9 +9,9 @@ from jamdict import Jamdict
 from operator import itemgetter
 
 @click.command()
-@click.option('--count', is_flag=True, help='Will affect the order. Sort the words by count of apperance. Without this flags words are printed in order as they are appear in the text')
+@click.option('--count', is_flag=True, help='Will affect the order. Sort the words by count of appearance. Without this flags words are printed in order as they are appear in the text')
 @click.option('--category', '-c', multiple=True, default=[],
-              help='Print words of the given categroy first. Valid categories are Verb,Adjective,Noun')
+              help='Print words of the given category first. Valid categories are Verb,Adjective,Noun')
 def cli(count,category):
     """
     Parse japanese words from stdin and build a vocabulary list.

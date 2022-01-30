@@ -148,7 +148,8 @@ def printWord(lemmaWord,wordType,count,jam,katsu,oldLemma,oldWordType):
                 romaji = katsu.map_kana(hiragana)
 
         #first print the header
-        print(hiragana,lemma,romaji,wordType,count,':',oldLemma,oldWordType,':',sep='\t')
+        print(hiragana,lemma,romaji,wordType,count,':',sep='\t')
+        #print(hiragana,lemma,romaji,wordType,count,':',oldLemma,oldWordType,':',sep='\t')
 
         #now lookup the translations.
         #use a pure string for the lookup. therefore we could use surface or lemma.

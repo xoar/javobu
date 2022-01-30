@@ -44,7 +44,10 @@ def parseStdin(count,categories):
             
             #extract a inclected word for a lookup.
             #use the inflected version of the word to eliminate past tense(ta) and other inflections
-            lemma = word.feature.lemma
+            #TODO: with unidic .lemma sometimes change the kanjis.
+            #instead we use orthbase to preserver the meaning of the kanjis
+            #Maybe this caused the bugs with wrong meanings in getWord(). inspect this, see later TODOs
+            lemma = word.feature.orthBase
 
             #for now we use the lemma as a key.
             #this leads to two entries for two ways of writing the same word with different kanjis.
